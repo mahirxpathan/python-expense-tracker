@@ -1,6 +1,47 @@
-# Python bytecode cache
+# Python bytecode/cache
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 
-# Local personal data file
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Testing/coverage caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+
+# Build/package artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+pip-wheel-metadata/
+
+# IDE/editor metadata
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Local environment files
+.env
+.env.*
+*.local
+
+# Local runtime data
 expenses.csv
